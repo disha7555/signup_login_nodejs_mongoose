@@ -3,17 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
     <title>login</title>
 </head>
-<body>
+<body style="margin-top: 25vh;">
+   
     <form action="login_submit" method="post">
+        <h1>Login</h1>
         <label for="email_login">Email</label>
         <input type="email" id="email_login" name="email_login"/>
         <br/><br/>
         <label for="password_login">Password</label>
-        <input typr="password" id="password_login" name="password_login">
+        <input type="password" id="password_login" name="password_login">
         <br/><br/>
         <button type="submit">Submit</button>
     </form>
 </body>
 </html>
+

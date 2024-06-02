@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
     <title>signup</title>
 </head>
-<body>
+<body style="margin-top: 13vh;">
+   
     <form action="signup_submit" method="post">
+        <h1>Sign Up</h1>
         <label for="name_signup">Name</label>
         <input type="text" id="name_signup" name="name_signup"/>
         <br/><br/>
@@ -17,7 +20,7 @@
         <input type="email" id="email_signup" name="email_signup"/>
         <br/><br/>
         <label for="password_signup">Password</label>
-        <input typr="password" id="password_signup" name="password_signup">
+        <input type="password" id="password_signup" name="password_signup">
         <br/><br/>
         <button type="submit">Submit</button>
     </form>
